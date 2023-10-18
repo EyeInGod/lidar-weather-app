@@ -1,6 +1,6 @@
 # Weather APP
 
-Aplicativo para consultar a previsão do tempo baseado na sua localização vigente.
+Application to check the weather forecast based on your current location.
 
 ## Demo
 
@@ -20,28 +20,28 @@ $ yarn ou npm install
 $ yarn start
 ```
 
-## Organização do projeto
+## Project organization
 
-O Projeto foi organizado pensando na escalabilidade de possíveis ferramentas e features.
+The Project was organized thinking about the scalability of possible tools and features.
 
 ![treeview do projeto](https://github.com//denis0612/weather-app/blob/main/assets/treeview.png?raw=true)
 
-1. A pasta `views` irá guardar as rotas do aplicativo e todos os arquivos dependentes que não são repetidos em outro lugar.
-2. A pasta `components` irá guardar todos os elementos visuais que são repetidos entre as `views`.
-3. A pasta `api` guarda toda a camada de comunicação do aplicativo com as fontes de informações.
-4. A pasta `hooks` guarda o customHooks que são funções que utilizam e triggeram o life cycle do react.
-5. A pasta `navigation` contém a lógica de rotas do aplicativo.
+1. The `views` folder will store the application routes and all dependent files that are not repeated elsewhere.
+2. The `components` folder will store all visual elements that are repeated between `views`.
+3. The `api` folder stores the entire communication layer between the application and information sources.
+4. The `hooks` folder stores customHooks, which are functions that use and trigger the react life cycle.
+5. The `navigation` folder contains the application's routing logic.
 
 ## App State
 
-Desenvolvido pensando no possível fluxo do usuário, o Custom Hook `appState` transparece o estado atual do aplicativo, para caso o usuário tenha recusado o uso da Localização. E assim quando ele voltar para o aplicativo ao liberar o acesso irá recarregar o fluxo.
+Developed with possible user flow in mind, the `appState` Custom Hook shows the current state of the application, in case the user has refused to use Location. And so when he returns to the application, when he releases access, he will reload the flow.
 
-## Próximos Passos
+## Next steps
 
-- Teste unitários: Para garantir a integridade dos componentes e impedir a quebra da aplicação no ocaso de houver mudanças significativas na api. O teste servirá para prevenir esses possíveis erros.
-- Animação: Usar animações para mudar as cores bases do aplicativo de acordo com o período que está sendo usado. E adicionar animações baseado na previsão do tempo.
-- Estilos: Adicionar uma propriedade ao Text chamada de `variant` que vai definir qual a font está sendo utilizada.
+- Unit testing: To guarantee the integrity of the components and prevent the application from breaking in the event of significant changes to the API. The test will serve to prevent these possible errors.
+- Animation: Use animations to change the base colors of the application according to the period being used. And add animations based on the weather forecast.
+- Styles: Add a property to the Text called `variant` that will define which font is being used.
 
-## Referência de Layout
+## Layout Reference
 
-- Link do layout: https://www.figma.com/community/file/885501292477669105/Weather-Forecast-App
+- Layout link: https://www.figma.com/community/file/885501292477669105/Weather-Forecast-App
