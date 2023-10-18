@@ -11,8 +11,7 @@ https://expo.io/@matsvilas/projects/weather-app
 
 ## Como Rodar o projeto
 
-Rode os seguintes comandos:
-
+Run the following commands:
 ```
 $ git clone https://github.com/denis0612/weather-app
 $ cd weather-app
