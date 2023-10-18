@@ -4,7 +4,7 @@ Aplicativo para consultar a previsão do tempo baseado na sua localização vige
 
 ## Demo
 
-![treeview do projeto](https://github.com//MatheusVilas/weather-app/blob/main/assets/demo.jpg?raw=true)
+![treeview do projeto](https://github.com//denis0612/weather-app/blob/main/assets/demo.jpg?raw=true)
 
 Para testar o aplicativo no device, basta acessar o link:
 https://expo.io/@matsvilas/projects/weather-app
@@ -14,7 +14,7 @@ https://expo.io/@matsvilas/projects/weather-app
 Rode os seguintes comandos:
 
 ```
-$ git clone https://github.com/MatheusVilas/weather-app
+$ git clone https://github.com/denis0612/weather-app
 $ cd weather-app
 $ yarn ou npm install
 $ yarn start
@@ -24,7 +24,7 @@ $ yarn start
 
 O Projeto foi organizado pensando na escalabilidade de possíveis ferramentas e features.
 
-![treeview do projeto](https://github.com//MatheusVilas/weather-app/blob/main/assets/treeview.png?raw=true)
+![treeview do projeto](https://github.com//denis0612/weather-app/blob/main/assets/treeview.png?raw=true)
 
 1. A pasta `views` irá guardar as rotas do aplicativo e todos os arquivos dependentes que não são repetidos em outro lugar.
 2. A pasta `components` irá guardar todos os elementos visuais que são repetidos entre as `views`.
@@ -44,6 +44,4 @@ Desenvolvido pensando no possível fluxo do usuário, o Custom Hook `appState` t
 
 ## Referência de Layout
 
-- Autor: Maulana Farhan Najib
-- Twitter do Autor: https://twitter.com/maulanafaa
 - Link do layout: https://www.figma.com/community/file/885501292477669105/Weather-Forecast-App
